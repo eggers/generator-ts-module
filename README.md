@@ -1,19 +1,17 @@
-# generator-npm-module
+# generator-npm-module [![Build Status](https://secure.travis-ci.org/eggers/generator-ts-module.png?branch=master)](https://travis-ci.org/eggers/generator-ts-module)
 
-<!-- [![Build Status](https://secure.travis-ci.org/domharrington/generator-npm-module.png?branch=master)](https://travis-ci.org/domharrington/generator-npm-module) -->
-
-> An opinionated [Yeoman](http://yeoman.io) generator for NPM modules
+> A [Yeoman](http://yeoman.io) generator for TypeScript NPM modules based on [domharrington/generator-npm-module](http://github.com/domharrington/generator-npm-module)
 
 ## Getting Started
 
 ```
-$ npm install -g yo generator-npm-module
+$ npm install -g yo generator-ts-module
 ```
 
 Start the generator in a new directory and follow the instructions:
 
 ```
-$ yo npm-module
+$ yo ts-module
 ```
 
 ## License

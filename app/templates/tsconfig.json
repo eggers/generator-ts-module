@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "noImplicitAny": true,
+    "rootDir": "src",
+    "moduleResolution": "node",
+    "noEmit": true
+  },
+  "exclude": [
+    "node_modules",
+    "test",
+    "lib",
+    "typings",
+    "doc"
+  ]
+}

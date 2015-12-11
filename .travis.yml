@@ -1,7 +1,14 @@
 language: node_js
+
+notifications:
+  email:
+    on_success: never
+    on_failure: change
+
 node_js:
-  - '0.10'
-before_install:
-  - currentfolder=${PWD##*/}
-  - if [ "$currentfolder" != 'generator-npm' ]; then cd .. && eval "mv $currentfolder generator-npm" && cd generator-npm; fi
+  - "0.10"
+  - "0.12"
+  - "iojs"
+  - "4"
+  - "stable"
 

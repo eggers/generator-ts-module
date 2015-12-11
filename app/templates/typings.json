@@ -1,0 +1,10 @@
+{
+  "name": "boilerplate",
+  "main": "lib/index.d.ts",
+  "author": "Jacob Eggers",
+  "description": "A description",
+  "ambientDevDependencies": {
+    "chai": "github:DefinitelyTyped/DefinitelyTyped/chai/chai.d.ts#91989d35b892f1526c35fb1e55219ba05bc5065e",
+    "mocha": "github:DefinitelyTyped/DefinitelyTyped/mocha/mocha.d.ts#d6dd320291705694ba8e1a79497a908e9f5e6617"
+  }
+}
